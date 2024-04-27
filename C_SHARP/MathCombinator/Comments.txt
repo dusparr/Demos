@@ -1,0 +1,19 @@
+//instead of logging, in most cases I am just writing to console, though logging should be added at a later date
+//the two exception are throws that need to be handled; file extension not known and attempting to print unevaluated data
+//though the latter of the two could evaluate the data ahead of time
+//but I left it this way under the assumption that this may end up being used in a thread based system
+//where evaulation may be computationaly bound
+//I also left, as practice for the reader, a way to add trinary or unary operations in pretty simply
+//you would have to add the appropriate class/function combination
+//the dictionary for the evaulators
+//and add in how it would be read by whatever system you want
+//As I believe that it goes beyond the scope of the document. It would be a place where communication between
+//automation and the product owner would take place as to the exact way that this should be handled
+//I am also specifically trying not to use inheritance in this as it has some weird pitfalls for extensibility
+
+
+//I decided that "twenty" is not valid data for this test, as it was not covered in the document
+//if you would want to allow it as actual text, there are decently sized converters and code documentation online
+//however that appeared to be outside of the scope of the test
+
+//it would be trivial to place some .splits to remove the "TURN10" that shows up in the descriptor; I will leave that for the reader
