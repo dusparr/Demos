@@ -1,0 +1,30 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"S:/UNREAL/5_3_THIRD_PERSON_BEHAVIOR/Behavior_3rd_V5_3/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset",
+				"S:/UNREAL/5_3_THIRD_PERSON_BEHAVIOR/Behavior_3rd_V5_3/Content/ThirdPerson/Blueprints/GameLogic/TimerCheck.uasset",
+				"S:/UNREAL/5_3_THIRD_PERSON_BEHAVIOR/Behavior_3rd_V5_3/Content/ThirdPerson/Blueprints/GameLogic/WorldObject.uasset",
+				"S:/UNREAL/5_3_THIRD_PERSON_BEHAVIOR/Behavior_3rd_V5_3/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/HL/XWFFRCIJ8QK4NRO30ALA6J.uasset",
+				"S:/UNREAL/5_3_THIRD_PERSON_BEHAVIOR/Behavior_3rd_V5_3/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/7E/BEYC27T14FHBU6LF2F60RR.uasset",
+				"S:/UNREAL/5_3_THIRD_PERSON_BEHAVIOR/Behavior_3rd_V5_3/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/8O/GK06JAEJ82TQ0GA2QB0DJG.uasset",
+				"S:/UNREAL/5_3_THIRD_PERSON_BEHAVIOR/Behavior_3rd_V5_3/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/FJ/EG66VOP1TELTU9NCFS59W8.uasset",
+				"S:/UNREAL/5_3_THIRD_PERSON_BEHAVIOR/Behavior_3rd_V5_3/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"S:/UNREAL/5_3_THIRD_PERSON_BEHAVIOR/Behavior_3rd_V5_3/Content/ThirdPerson/Blueprints/GameLogic/ObjectToPickup.uasset",
+				"S:/UNREAL/5_3_THIRD_PERSON_BEHAVIOR/Behavior_3rd_V5_3/Content/ThirdPerson/Blueprints/GameLogic/PlayerLogic.uasset",
+				"S:/UNREAL/5_3_THIRD_PERSON_BEHAVIOR/Behavior_3rd_V5_3/Content/ThirdPerson/Input/Actions/IA_Pickup.uasset",
+				"S:/UNREAL/5_3_THIRD_PERSON_BEHAVIOR/Behavior_3rd_V5_3/Content/ThirdPerson/Input/IMC_Default.uasset",
+				"S:/UNREAL/5_3_THIRD_PERSON_BEHAVIOR/Behavior_3rd_V5_3/Content/ThirdPerson/Content/PLATFORM.uasset",
+				"S:/UNREAL/5_3_THIRD_PERSON_BEHAVIOR/Behavior_3rd_V5_3/Content/ThirdPerson/Content/platform_Mat.uasset",
+				"S:/UNREAL/5_3_THIRD_PERSON_BEHAVIOR/Behavior_3rd_V5_3/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/18/03DXJK2INR0N5D6AFMW6X1.uasset",
+				"S:/UNREAL/5_3_THIRD_PERSON_BEHAVIOR/Behavior_3rd_V5_3/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/PL/Y5SZK5BLTHIB7NAVF7P38P.uasset",
+				"S:/UNREAL/5_3_THIRD_PERSON_BEHAVIOR/Behavior_3rd_V5_3/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/MR/X6HBE8D68LVA9BGA4T3PWT.uasset",
+				"S:/UNREAL/5_3_THIRD_PERSON_BEHAVIOR/Behavior_3rd_V5_3/Content/ThirdPerson/Blueprints/GameLogic/UI/UI_Winner.uasset",
+				"S:/UNREAL/5_3_THIRD_PERSON_BEHAVIOR/Behavior_3rd_V5_3/Content/ThirdPerson/Content/WINNER.uasset"
+			]
+		}
+	]
+}
