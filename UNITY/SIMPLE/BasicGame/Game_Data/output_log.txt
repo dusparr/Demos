@@ -1,0 +1,40 @@
+Initialize engine version: 5.4.0f3 (a6d8d714de6f)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2414)
+    Vendor:   NVIDIA
+    VRAM:     8024 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: H:\FTP\school\Branch Proj 1\Game_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading H:\FTP\school\Branch Proj 1\Game_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: H:\FTP\school\Branch Proj 1\Game_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading H:\FTP\school\Branch Proj 1\Game_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: H:\FTP\school\Branch Proj 1\Game_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading H:\FTP\school\Branch Proj 1\Game_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: H:\FTP\school\Branch Proj 1\Game_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading H:\FTP\school\Branch Proj 1\Game_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.482 seconds
+Platform assembly: H:\FTP\school\Branch Proj 1\Game_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: H:\FTP\school\Branch Proj 1\Game_Data\Managed\System.dll (this message is harmless)
+desktop: 3440x1440 60Hz; virtual: 8120x1920 at -3600,-469
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.334700 ms
+Setting up 3 worker threads for Enlighten.
+  Thread -> id: 7e68 -> priority: 1 
+  Thread -> id: 5fe4 -> priority: 1 
+  Thread -> id: 3050 -> priority: 1 
+What
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+What
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+What
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+

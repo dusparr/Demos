@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{0FBCCCF1-EE3F-D2A9-4E84-5F371EB9E22D}") = "Branch Proj 1", "Assembly-CSharp.csproj", "{511764AD-2668-7090-218F-E0EC499DE54B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{511764AD-2668-7090-218F-E0EC499DE54B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{511764AD-2668-7090-218F-E0EC499DE54B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{511764AD-2668-7090-218F-E0EC499DE54B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{511764AD-2668-7090-218F-E0EC499DE54B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
