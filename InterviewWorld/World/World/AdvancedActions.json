@@ -1,0 +1,46 @@
+[
+  {
+    "id": "light_torch",
+    "DescriptionOfAction": "Light the torch to illuminate the entrance.",
+    "DescriptionOfTakingAction": "You light the torch, revealing ancient carvings.",
+    "DescriptionOfTakingActionFail": "You need a torch to light this.",
+    "CantDoAction": "It's already lit.",
+    "Functor": "light_torch",
+    "CanDoFunctor": "always_success",
+    "Effect": { "TorchLit": "True" }
+  },
+  {
+    "id": "search_wall",
+    "DescriptionOfAction": "Inspect the wall for any hidden mechanisms.",
+    "DescriptionOfTakingAction": "You discover a hidden switch that opens a secret passage!",
+    "DescriptionOfTakingActionFail": "Nothing happens.",
+    "CantDoAction": "The passage is already open.",
+    "CanDoFunctor": "always_success",
+    "Effect": { "SecretDoor": "Open" }
+  },
+  {
+    "id": "take_key",
+    "DescriptionOfAction": "Take the ancient key from the pedestal.",
+    "DescriptionOfTakingAction": "You take the Dungeon Key. It might open something important.",
+    "DescriptionOfTakingActionFail": "There is nothing here.",
+    "CantDoAction": "You already have the key.",
+    "CanDoFunctor": "always_success",
+    "Effect": { "DungeonKey": "True" }
+  },
+  {
+    "id": "climb_rope",
+    "DescriptionOfAction": "Try to climb across the hanging rope.",
+    "DescriptionOfTakingAction": "You skillfully climb across to the next chamber.",
+    "DescriptionOfTakingActionFail": "You slip and fall back down!",
+    "CantDoAction": "You need better agility to climb this.",
+    "Effect": {}
+  },
+  {
+    "id": "open_chest",
+    "DescriptionOfAction": "Attempt to open the ancient chest.",
+    "DescriptionOfTakingAction": "You unlock the chest, revealing a trove of gold and artifacts.",
+    "DescriptionOfTakingActionFail": "The chest is locked.",
+    "CantDoAction": "You need the Dungeon Key to open this.",
+    "Effect": { "ChestLocked": "False" }
+  }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "id": "toggle_light",
+    "DescriptionOfAction": "You see a light switch on the wall.",
+    "DescriptionOfTakingAction": "You flip the switch, and the room changes color.",
+    "DescriptionOfTakingActionFail": "The switch doesn't seem to work.",
+    "CantDoAction": "You can't find a switch here.",
+    "Functor": "switch_light",
+    "CanDoFunctor": "always_success"
+  }
+]

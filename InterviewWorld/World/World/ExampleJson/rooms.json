@@ -1,0 +1,74 @@
+[
+  {
+    "RoomKeyID": "room_0_0",
+    "Description": "A dark, cold room with a single flickering bulb.",
+    "Actions": [ "toggle_light" ],
+    "ConnectedRooms": [ "room_0_1", "room_1_0" ],
+    "State": { "Light": "Black" },
+    "CanEnter": "check_light_black"
+  },
+  {
+    "RoomKeyID": "room_0_1",
+    "Description": "A dimly lit passage with shadows moving across the walls.",
+    "Actions": [ "toggle_light" ],
+    "ConnectedRooms": [ "room_0_0", "room_0_2", "room_1_1" ],
+    "State": { "Light": "Black" },
+    "CanEnter": "check_light_white"
+  },
+  {
+    "RoomKeyID": "room_0_2",
+    "Description": "A brightly lit chamber with strange markings on the walls.",
+    "Actions": [ "toggle_light" ],
+    "ConnectedRooms": [ "room_0_1", "room_1_2" ],
+    "State": { "Light": "Black" },
+    "CanEnter": "check_light_black"
+  },
+  {
+    "RoomKeyID": "room_1_0",
+    "Description": "A quiet hallway leading further into darkness.",
+    "Actions": [ "toggle_light" ],
+    "ConnectedRooms": [ "room_0_0", "room_1_1", "room_2_0" ],
+    "State": { "Light": "Black" },
+    "CanEnter": "check_light_white"
+  },
+  {
+    "RoomKeyID": "room_1_1",
+    "Description": "The central hub of this strange place, glowing faintly.",
+    "Actions": [ "toggle_light" ],
+    "ConnectedRooms": [ "room_0_1", "room_1_0", "room_1_2", "room_2_1" ],
+    "State": { "Light": "Black" },
+    "CanEnter": "check_light_black"
+  },
+  {
+    "RoomKeyID": "room_1_2",
+    "Description": "A locked chamber with a heavy iron door.",
+    "Actions": [ "toggle_light" ],
+    "ConnectedRooms": [ "room_0_2", "room_1_1", "room_2_2" ],
+    "State": { "Light": "Black" },
+    "CanEnter": "check_light_white"
+  },
+  {
+    "RoomKeyID": "room_2_0",
+    "Description": "A storage room filled with dusty old crates.",
+    "Actions": [ "toggle_light" ],
+    "ConnectedRooms": [ "room_1_0", "room_2_1" ],
+    "State": { "Light": "Black" },
+    "CanEnter": "check_light_black"
+  },
+  {
+    "RoomKeyID": "room_2_1",
+    "Description": "A strange laboratory with humming machinery.",
+    "Actions": [ "toggle_light" ],
+    "ConnectedRooms": [ "room_1_1", "room_2_0", "room_2_2" ],
+    "State": { "Light": "Black" },
+    "CanEnter": "check_light_white"
+  },
+  {
+    "RoomKeyID": "room_2_2",
+    "Description": "The final room, bathed in eerie blue light.",
+    "Actions": [ "toggle_light" ],
+    "ConnectedRooms": [ "room_1_2", "room_2_1" ],
+    "State": { "Light": "Black" },
+    "CanEnter": "check_light_black"
+  }
+]

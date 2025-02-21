@@ -1,0 +1,90 @@
+[
+  {
+    "RoomKeyID": "room_entrance",
+    "Description": "A dark and damp entrance to an ancient dungeon. The air smells of decay.",
+    "Actions": [ "light_torch" ],
+    "ConnectedRooms": [ "room_corridor" ],
+    "State": { "TorchLit": "False" },
+    "CanEnter": "true"
+  },
+  {
+    "RoomKeyID": "room_corridor",
+    "Description": "A narrow corridor leading deeper into the dungeon.",
+    "Actions": [ "search_wall" ],
+    "ConnectedRooms": [ "room_entrance", "room_hall", "room_hidden" ],
+    "State": { "SecretDoor": "Closed" },
+    "CanEnter": "room.TorchLit == 'True'"
+  },
+  {
+    "RoomKeyID": "room_hidden",
+    "Description": "A hidden chamber with an old pedestal in the center.",
+    "Actions": [ "take_key" ],
+    "ConnectedRooms": [ "room_corridor" ],
+    "State": { "DungeonKey": "True" },
+    "CanEnter": "room.SecretDoor == 'Open'"
+  },
+  {
+    "RoomKeyID": "room_hall",
+    "Description": "A large hall with ancient carvings on the walls.",
+    "Actions": [ "talk_to_merchant" ],
+    "ConnectedRooms": [ "room_corridor", "room_trap", "room_library" ],
+    "State": {},
+    "CanEnter": "true"
+  },
+  {
+    "RoomKeyID": "room_library",
+    "Description": "A dusty old library with ancient books lining the walls.",
+    "Actions": [ "read_book" ],
+    "ConnectedRooms": [ "room_hall", "room_study" ],
+    "State": { "BookRead": "False" },
+    "CanEnter": "true"
+  },
+  {
+    "RoomKeyID": "room_study",
+    "Description": "A small study with a desk covered in notes. A mysterious amulet is placed here.",
+    "Actions": [ "take_amulet" ],
+    "ConnectedRooms": [ "room_library" ],
+    "State": { "AmuletTaken": "False" },
+    "CanEnter": "true"
+  },
+  {
+    "RoomKeyID": "room_trap",
+    "Description": "A room with a collapsed floor. The only way forward is to climb across a hanging rope.",
+    "Actions": [ "climb_rope" ],
+    "ConnectedRooms": [ "room_hall", "room_maze_1" ],
+    "State": {},
+    "CanEnter": "character.Agility >= '5'"
+  },
+  {
+    "RoomKeyID": "room_maze_1",
+    "Description": "A twisting passageway filled with ominous echoes.",
+    "Actions": [],
+    "ConnectedRooms": [ "room_trap", "room_maze_2", "room_maze_3" ],
+    "State": {},
+    "CanEnter": "true"
+  },
+  {
+    "RoomKeyID": "room_maze_2",
+    "Description": "A dead-end with strange markings on the wall.",
+    "Actions": [],
+    "ConnectedRooms": [ "room_maze_1" ],
+    "State": {},
+    "CanEnter": "true"
+  },
+  {
+    "RoomKeyID": "room_maze_3",
+    "Description": "A winding passage with a faint glow at the end.",
+    "Actions": [],
+    "ConnectedRooms": [ "room_maze_1", "room_treasure" ],
+    "State": {},
+    "CanEnter": "true"
+  },
+  {
+    "RoomKeyID": "room_treasure",
+    "Description": "The final chamber, housing an ancient chest, covered in dust.",
+    "Actions": [ "open_chest" ],
+    "ConnectedRooms": [ "room_maze_3" ],
+    "State": { "ChestLocked": "True" },
+    "CanEnter": "character.HasDungeonKey == 'True'"
+  }
+]

@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\json">
+      <UniqueIdentifier>{baecabf7-3b06-478d-96b5-129e0bf78ca9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\actions">
+      <UniqueIdentifier>{ec174d8b-1033-49b2-ae5c-34b542bcd55c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\rooms">
+      <UniqueIdentifier>{ac47fd9a-8515-4f78-a604-4ee910589696}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\world">
+      <UniqueIdentifier>{a8cd1cc7-31a1-4583-b7d7-2591ee26ccae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\functors">
+      <UniqueIdentifier>{004eed05-96d3-4a6f-bca2-0b29fb6fef3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\characters">
+      <UniqueIdentifier>{3c4aab36-f599-450f-95c3-6f1d9aaedb3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Stable_AI">
+      <UniqueIdentifier>{7b19e220-ae44-4fd5-ba2c-848bac2298bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\sfmlbin">
+      <UniqueIdentifier>{ba8739a8-d04c-4a81-800a-f12776b60d57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scripting">
+      <UniqueIdentifier>{1c744ad2-d113-4983-aaa7-e86b4ab7d959}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Action.cpp">
+      <Filter>Source Files\actions</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>Source Files\rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Source Files\world</Filter>
+    </ClCompile>
+    <ClCompile Include="functors.cpp">
+      <Filter>Source Files\functors</Filter>
+    </ClCompile>
+    <ClCompile Include="character.cpp">
+      <Filter>Source Files\characters</Filter>
+    </ClCompile>
+    <ClCompile Include="stable_diffusion_client.cpp">
+      <Filter>Source Files\Stable_AI</Filter>
+    </ClCompile>
+    <ClCompile Include="script_engine.cpp">
+      <Filter>Source Files\scripting</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Action.h">
+      <Filter>Source Files\actions</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>Source Files\rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="world.h">
+      <Filter>Source Files\world</Filter>
+    </ClInclude>
+    <ClInclude Include="functors.h">
+      <Filter>Source Files\functors</Filter>
+    </ClInclude>
+    <ClInclude Include="character.h">
+      <Filter>Source Files\characters</Filter>
+    </ClInclude>
+    <ClInclude Include="stable_diffusion_client.h">
+      <Filter>Source Files\Stable_AI</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image_write.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="script_engine.h">
+      <Filter>Source Files\scripting</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="$(MSBuildThisFileDirectory)\libcurl.dll" />
+    <None Include="$(MSBuildThisFileDirectory)\LibCurlShim.dll" />
+    <None Include="$(MSBuildThisFileDirectory)\libcurl.dll" />
+    <None Include="$(MSBuildThisFileDirectory)\LibCurlShim.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="IMAGEBIN\openal32.dll">
+      <Filter>Resource Files\sfmlbin</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="IMAGEBIN\libcurl-x64.dll">
+      <Filter>Resource Files\sfmlbin</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="IMAGEBIN\sfml-audio-2.dll" />
+    <CopyFileToFolders Include="IMAGEBIN\sfml-audio-d-2.dll" />
+    <CopyFileToFolders Include="IMAGEBIN\sfml-graphics-2.dll" />
+    <CopyFileToFolders Include="IMAGEBIN\sfml-graphics-d-2.dll" />
+    <CopyFileToFolders Include="IMAGEBIN\sfml-network-2.dll" />
+    <CopyFileToFolders Include="IMAGEBIN\sfml-network-d-2.dll" />
+    <CopyFileToFolders Include="IMAGEBIN\sfml-system-2.dll" />
+    <CopyFileToFolders Include="IMAGEBIN\sfml-system-d-2.dll" />
+    <CopyFileToFolders Include="IMAGEBIN\sfml-window-2.dll" />
+    <CopyFileToFolders Include="IMAGEBIN\sfml-window-d-2.dll" />
+    <CopyFileToFolders Include="ExampleJson\actions.json">
+      <Filter>Resource Files\json</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="AdvancedActions.json">
+      <Filter>Resource Files\json</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="AdvancedCharacters.json">
+      <Filter>Resource Files\json</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="AdvancedRooms.json">
+      <Filter>Resource Files\json</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="ExampleJson\characters.json">
+      <Filter>Resource Files\json</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="ExampleJson\rooms.json">
+      <Filter>Resource Files\json</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="SamplerJson.json">
+      <Filter>Resource Files\json</Filter>
+    </CopyFileToFolders>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="IMAGEBIN\libngtcp2_crypto_quictls.a">
+      <Filter>Resource Files\sfmlbin</Filter>
+    </Library>
+    <Library Include="IMAGEBIN\libnghttp3.a">
+      <Filter>Resource Files\sfmlbin</Filter>
+    </Library>
+    <Library Include="IMAGEBIN\libnghttp2.a">
+      <Filter>Resource Files\sfmlbin</Filter>
+    </Library>
+    <Library Include="IMAGEBIN\libssh2.a">
+      <Filter>Resource Files\sfmlbin</Filter>
+    </Library>
+    <Library Include="IMAGEBIN\libcrypto.a">
+      <Filter>Resource Files\sfmlbin</Filter>
+    </Library>
+    <Library Include="IMAGEBIN\libssl.a">
+      <Filter>Resource Files\sfmlbin</Filter>
+    </Library>
+    <Library Include="IMAGEBIN\libzstd.a">
+      <Filter>Resource Files\sfmlbin</Filter>
+    </Library>
+    <Library Include="IMAGEBIN\libz.a">
+      <Filter>Resource Files\sfmlbin</Filter>
+    </Library>
+    <Library Include="IMAGEBIN\libpsl.a">
+      <Filter>Resource Files\sfmlbin</Filter>
+    </Library>
+    <Library Include="IMAGEBIN\libbrotlicommon.a">
+      <Filter>Resource Files\sfmlbin</Filter>
+    </Library>
+    <Library Include="IMAGEBIN\libbrotlidec.a">
+      <Filter>Resource Files\sfmlbin</Filter>
+    </Library>
+    <Library Include="IMAGEBIN\libcurl.a">
+      <Filter>Resource Files\sfmlbin</Filter>
+    </Library>
+    <Library Include="IMAGEBIN\libcurl.dll.a">
+      <Filter>Resource Files\sfmlbin</Filter>
+    </Library>
+    <Library Include="IMAGEBIN\libngtcp2.a">
+      <Filter>Resource Files\sfmlbin</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

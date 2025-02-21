@@ -1,0 +1,64 @@
+[
+  {
+    "CharacterID": "char_1",
+    "Name": "Guardian",
+    "Description": "A mysterious figure cloaked in shadows.",
+    "CurrentRoomID": "room_1_1",
+    "State": {
+      "Hostile": "No",
+      "Species": "undead shadow",
+      "Expression": "Curious and afraid"
+    },
+    "CanMove": "always_success"
+  },
+  {
+    "CharacterID": "char_2",
+    "Name": "Merchant",
+    "Description": "A wandering trader carrying strange artifacts.",
+    "CurrentRoomID": "room_0_1",
+    "State": {
+      "HasGold": "Yes",
+      "Species": "Furry cat",
+      "Clothing": "Fancy desert clothing",
+      "Gender": "Male"
+    },
+    "CanMove": "check_light_white"
+  },
+  {
+    "CharacterID": "char_3",
+    "Name": "Prisoner",
+    "Description": "A ragged prisoner chained to the wall.",
+    "CurrentRoomID": "room_2_2",
+    "State": { "Free": "No" },
+    "CanMove": "always_fail"
+  },
+  {
+    "CharacterID": "char_4",
+    "Name": "Prisoner",
+    "Description": "devil under pale moonlight",
+    "CurrentRoomID": "room_2_2",
+    "State": {
+      "Free": "No",
+      "Myth": "devil",
+      "gender": "male",
+      "items": "spear"
+    },
+    "CanMove": "always_fail"
+  },
+  {
+    "CharacterID": "char_5",
+    "Name": "Prisoner",
+    "Description": "A ragged prisoner chained to the wall.",
+    "CurrentRoomID": "room_2_2",
+    "State": { "Free": "No" },
+    "CanMove": "always_fail"
+  },
+  {
+    "CharacterID": "char_6",
+    "Name": "Prisoner",
+    "Description": "A ragged prisoner chained to the wall.",
+    "CurrentRoomID": "room_2_2",
+    "State": { "Free": "No" },
+    "CanMove": "always_fail"
+  }
+]

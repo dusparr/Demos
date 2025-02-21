@@ -1,0 +1,103 @@
+[
+  {
+    "CharacterID": "elven_scout",
+    "Name": "Lyari Moonshadow",
+    "Description": "A swift and agile elven explorer with piercing green eyes and a keen sense of direction. Her leather armor allows for silent movement.",
+    "CurrentRoomID": "room_entrance",
+    "State": {
+      "Wandering": "True",
+      "Agility": "Quick and light on her feet",
+      "Gender": "Female"
+    },
+    "CanMove": "true"
+  },
+  {
+    "CharacterID": "orc_warrior",
+    "Name": "Grum Ironfist",
+    "Description": "A brutish orc with battle-worn green skin, a scar across his eye, and a massive axe slung over his shoulder. His deep voice rumbles like distant thunder.",
+    "CurrentRoomID": "room_entrance",
+    "State": {
+      "Wandering": "False",
+      "Strength": "Mighty and battle-hardened",
+      "Gender": "Male"
+    },
+    "CanMove": "false"
+  },
+  {
+    "CharacterID": "dwarven_merchant",
+    "Name": "Thurgrum Stonebrew",
+    "Description": "A stout and stocky dwarf with a thick braided beard, dressed in fine merchant robes. His sharp eyes glimmer with greed as he polishes his coin pouch.",
+    "CurrentRoomID": "room_entrance",
+    "State": {
+      "Wandering": "False",
+      "Gender": "Male",
+      "Trade": "Sells useful adventuring supplies, weapons, and rare magical artifacts"
+    },
+    "CanMove": "false",
+    "Inventory": [
+      {
+        "Item": "Health Potion",
+        "Price": "10 Gold"
+      },
+      {
+        "Item": "Torch",
+        "Price": "5 Gold"
+      },
+      {
+        "Item": "Short Sword",
+        "Price": "20 Gold"
+      },
+      {
+        "Item": "Rope",
+        "Price": "8 Gold"
+      },
+      {
+        "Item": "Lockpick Set",
+        "Price": "15 Gold"
+      },
+      {
+        "Item": "Enchanted Ring",
+        "Price": "50 Gold"
+      },
+      {
+        "Item": "Bag of Holding",
+        "Price": "100 Gold"
+      }
+    ]
+  },
+  {
+    "CharacterID": "human_guard",
+    "Name": "Sir Edric Vallis",
+    "Description": "A weary but disciplined human guard with short cropped blond hair and a well-worn longsword. His armor bears the insignia of a forgotten kingdom.",
+    "CurrentRoomID": "room_entrance",
+    "State": {
+      "Wandering": "False",
+      "Gender": "Male"
+    },
+    "CanMove": "false"
+  },
+  {
+    "CharacterID": "beastkin_rogue",
+    "Name": "Nyx Quickpaw",
+    "Description": "A cunning feline humanoid with black fur, sharp golden eyes, and a sly grin. Her movements are almost ghostly as she slinks through the shadows, her tail flicking playfully.",
+    "CurrentRoomID": "room_entrance",
+    "State": {
+      "Wandering": "True",
+      "Stealth": "Moves unseen in the shadows",
+      "Gender": "Female"
+    },
+    "CanMove": "true"
+  },
+  {
+    "CharacterID": "dungeon_horror",
+    "Name": "The Hungering Maw",
+    "Description": "A monstrous abomination of writhing tendrils and chitinous plates, its gaping mouth filled with needle-like teeth. Eyes of shifting colors pulse across its body, locking onto prey with an eerie intelligence. The air around it hums with unnatural whispers, promising madness to those who listen too long.",
+    "CurrentRoomID": "room_entrance",
+    "State": {
+      "Wandering": "True",
+      "Hostile": "Unrelentingly aggressive, attacks on sight",
+      "Gender": "Unknown"
+    },
+    "CanMove": "true"
+  }
+]
